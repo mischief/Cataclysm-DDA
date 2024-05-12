@@ -1,0 +1,8 @@
+option('gui', type: 'combo', choices: ['curses', 'tiles'], value: 'curses')
+option('tiles', type: 'boolean', value: false)
+option('curses', type: 'boolean', value: true)
+option('sound', type: 'boolean', value: false)
+option('backtrace', type: 'boolean', value: true)
+option('libbacktrace', type: 'boolean', value: false)
+option('tests', type: 'boolean', value: false)
+
